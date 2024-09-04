@@ -45,12 +45,12 @@
 #print(name)
 
 
-
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
-
+name=input("What's your name? ")
+print(name)
+print(name)
 
 
 
@@ -59,6 +59,9 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name1=input("whats another name? ")
+print("! "+name1+" ! "+name1+" !")
 
 
 ## Problem 3 ##
@@ -70,6 +73,15 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
+
+firstname=input("Give me your first name. ")
+lastname=("Give me your last name. ")
+address=("Give me your address. ")
+city=("Give me your city and postal code. ")
+
+print("first name: "+firstname)
+print("last name: "+lastname)
+
 
 ## Problem 4 ##
 #Please write a script that: 
