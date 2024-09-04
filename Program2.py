@@ -81,12 +81,18 @@ city=("Give me your city and postal code. ")
 
 print("first name: "+firstname)
 print("last name: "+lastname)
+print("address: "+address)
+print("city and postal code: "+city)
 
 
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
+word1=input("give me a word ")
+word2=input("give me another word ")
+word3=input("give me one more word ")
+print(word1+"-"+word2+"-"+word3)
 
 
 ## Problem 5 ##
@@ -100,3 +106,7 @@ print("last name: "+lastname)
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+storyname=input("please type in a name for a story ")
+year=input("please type in a year ")
+print (storyname+" is a pirate sailing the ocean in "+year+". They find treasure in a hidden cave, becoming rich.")
